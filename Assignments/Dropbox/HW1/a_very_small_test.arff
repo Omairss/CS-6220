@@ -1,0 +1,19 @@
+@RELATION kosarak
+@ATTRIBUTE id1 {0, 1}
+@ATTRIBUTE id2 {0, 1}
+@ATTRIBUTE id3 {0, 1}
+@ATTRIBUTE id4 {0, 1}
+@ATTRIBUTE id5 {0, 1}
+@ATTRIBUTE id6 {0, 1}
+@ATTRIBUTE id7 {0, 1}
+@ATTRIBUTE id8 {0, 1}
+@ATTRIBUTE id9 {0, 1}
+@ATTRIBUTE id10 {0, 1}
+@ATTRIBUTE id11 {0, 1}
+@ATTRIBUTE id12 {0, 1}
+@DATA
+{0 1, 1 1, 2 1}
+{0 1}
+{1 1, 2 1, 3 1}
+{2 1, 3 1, 11 1}
+{0 1, 1 1, 2 1, 3 1, 4 1, 11 1}

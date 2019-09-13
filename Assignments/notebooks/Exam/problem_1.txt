@@ -1,0 +1,11 @@
+Problem 1:
+
+- Manually inspecting, even I can't tell what some of the numbers are. Initial thought was to use a brightness filter. Edge detection algorithms may not work either. Attempting to use nn autoencoder. 
+
+- Autoencoder seems have done it's job, but not a good one. Will attempt to classify using kmeans. While the model seems correct, it's inaccurate in transforming into the correct number.
+
+- Tried different max_iters for kmeans and different encoder dimensions [30, 60, 90, 120], trying sigmoid and relu for autoencoder. Tried doubling epochs. Doesn't improve Score. Moving on to PCA for feature selection.
+
+- The performance appears to be even worse now. Trying ChiSqaure
+
+- Achieved 0.32 as harmonic mean.

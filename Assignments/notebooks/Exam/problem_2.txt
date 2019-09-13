@@ -1,0 +1,10 @@
+Problem 2:
+
+- Used LDA and GM with 10 components. 
+- Plotted a histogram of yhat. Labels appear to be distributed as sample 
+- For CountVectorizer; max_df=0.95, min_df=2, max_features=1000
+- homogeneity, completeness, v_measure_score: 2.43221462151737, 1.6831935223779175, 1.9895416215490973
+- Put the thing in a function and looped it for different K and T values. Plotted the heat map to visually inspect the relationship between the scores and K and T.
+- It appears that: 1) homogeneity is minimized by minimizing t and maximizing k, 2) completeness is minimized by minimizing t and minimizing k 3) v_measure is minimized by minimizing t and minimizing k. The optimal value, therefore, is decided as T  = 4 and K = 40
+- Based on the plot, I chose T as 4 and K as 30.
+- Printed the topics for LDA. 
